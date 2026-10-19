@@ -1,70 +1,59 @@
-[README.md](https://github.com/user-attachments/files/33644766/README.md)
 
+[README.md](https://github.com/user-attachments/files/33644898/README.md)
 # DICOM 转 MP4 工具包
 
-将医院提供的 DICOM 医学影像转换为手机、电脑便于播放的 MP4，方便转院、复诊或与医生沟通时查看。转换在本地离线完成，保留原始文件。支持 CT、MR、造影等资料中符合支持列表的影像对象；具体以传输语法和像素格式为准。
+将医院提供的 DICOM 医学影像转换为手机、电脑便于播放的 MP4，方便转院、复诊和与多位医生沟通时查看。
 
-> MP4 是有损、8 位的观看副本，不能替代原始 DICOM、专业影像查看器或诊断依据。单帧影像会生成 3 秒静态视频；本工具不会把多张 CT/MR 切片自动拼成连续序列，不会用 AI 补帧或补造影像。
+**本地离线转换 · 无需安装运行环境 · 保留原始文件**
 
-## 下载与使用
+## 下载
 
-普通用户请下载仓库 **Releases 附件中的完整便携 ZIP**。GitHub 自动生成的 “Source code (zip)” 和本仓库源码 ZIP 不含 Python、FFmpeg 运行环境，不能直接双击使用。仓库整理时保留的 `DICOM-MP4-original-backup.zip` 就是完整原包，可改名后作为 Release 附件发布。
+请前往 **[版本发布与完整工具包下载](https://github.com/yuanxin586878-lang/DICOM-MP4-/releases)**，下载附件中的 `DICOM-MP4-v1.0-Windows-x64.zip`。
 
-1. 将完整便携 ZIP 解压到可写、较短的路径，不能在压缩软件里直接运行。
-2. 将医院资料复制到 `原始文件`，可保留子目录和 DICOMDIR。
-3. 双击 `开始转换.cmd`。
-4. 在 `视频输出` 查看 MP4，在 `转换记录` 查看结果、跳过项及失败原因。
+如果发布页尚无附件，说明完整工具包还未发布。绿色 `Code → Download ZIP` 以及自动生成的 `Source code (zip)` 只包含源码，不能直接双击运行。
 
-完整便携版无需安装 Python、FFmpeg，无需联网。目标系统为 Windows 10/11 x64；原包报告记载实测为 Windows 11 build 22621，未独立实测 Windows 10、实体 U 盘或全部厂商变体。本次仓库整理没有重跑医学影像转换测试。
+适用系统：Windows 10/11，64 位 x64。原包验证环境为 Windows 11；未在独立 Windows 10 设备上实测。
 
-## 功能与边界
+## 使用方法
 
-- 按内容识别 DICOM，支持无扩展名、中文、空格和子目录；一个影像对象对应一个 MP4。
-- 保留原始资料；已有视频跳过，不覆盖，也不重新验证旧视频。
-- 按元信息应用常见灰度、窗宽窗位及彩色显示处理；保留有依据的播放间隔，无可靠依据时明确采用默认 15 fps。
-- 新输出使用 FFprobe 核对参数、帧数、时间戳，再经 FFmpeg 完整解码检查。
-- 不支持所有 DICOM 变体，例如 MPEG/H.264 封装型 DICOM、私有传输语法和浮点像素等。
+1. 完整解压下载的便携 ZIP，不要在压缩软件内部运行。
+2. 将医院提供的资料复制到 `原始文件` 文件夹，可以保留原有子目录。
+3. 双击 `开始转换.cmd`，等待处理完成。
+4. 在 `视频输出` 文件夹查看 MP4；在 `转换记录` 文件夹查看成功、跳过和失败结果。
 
-完整说明见 [原使用说明](README.txt)、[支持范围与原验证报告](支持范围与验证报告.txt)。这些文件保留原文；其中提到的历史 `构建与验证/测试证据` 仅在完整备份中保留，未纳入源码仓库。
+完整便携版已包含 Python 和 FFmpeg，转换过程无需联网，也不需要输入命令。
 
-## 源码目录
+## 功能说明
 
-```text
-程序/convert.py                         实际转换程序
-构建与验证/源码/work/build/              原构建脚本、同版转换源码、测试脚本和下载锁
-构建与验证/重建说明.txt                   原始重建说明
-第三方许可/                              第三方许可、来源和所附源码归档
-LICENSE.txt                              原始 GPLv3 许可证正文
-requirements.txt                         开发依赖版本
-开始转换.cmd                             完整便携版入口
-```
+- 按内容识别 DICOM，支持无扩展名、中文文件名及子目录。
+- 一个影像对象生成一个 MP4；单帧影像生成 3 秒静态视频。
+- 不修改、覆盖原始资料；已有输出视频会跳过。
+- 按影像元信息处理常见灰度、窗宽窗位和色彩，转换后校验新视频。
+- 支持范围取决于传输语法和像素格式；不保证所有医院设备的 DICOM 都能转换。
 
-所有原自编源码和许可证均按字节保留。仓库保留第三方源码归档（最大的 FFmpeg 源码 ZIP 约 22 MiB），但不提交 FFmpeg/FFprobe EXE 或内嵌 Python。完整便携包保留上述运行库和原有分发内容。
+**MP4 是有损、8 位的观看副本，不能替代原始 DICOM、专业影像查看器或医学诊断。** 本工具不会自动把多张 CT/MR 切片拼成连续序列，也不会补造影像。
 
-## 开发运行
+更多细节：[详细使用说明](DICOM%20to%20MP4/README.txt) · [支持范围与验证报告](DICOM%20to%20MP4/支持范围与验证报告.txt)
 
-在 Windows x64 上安装 Python 3.12，在仓库根目录执行：
+## 源码与开发
+
+本仓库的项目文件位于 [`DICOM to MP4`](DICOM%20to%20MP4/) 子目录。下面的操作需要自行安装 Python 3.12 x64，适用于开发者；普通用户请下载上面的完整便携版。
+
+在仓库根目录打开 PowerShell，执行：
 
 ```powershell
+Set-Location 'DICOM to MP4'
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 ```
 
-从完整便携包复制 `程序/ffmpeg/ffmpeg.exe` 和 `ffprobe.exe` 到同名位置（这些文件已被 Git 忽略），然后：
+从完整便携版复制 `程序/ffmpeg/ffmpeg.exe` 和 `程序/ffmpeg/ffprobe.exe` 到该项目目录的相同位置，再运行：
 
 ```powershell
 .\.venv\Scripts\python.exe 程序/convert.py --self-check
 .\.venv\Scripts\python.exe 程序/convert.py
 ```
 
-构建锁中记录了原下载 URL、版本和 SHA-256；下载器只在开发构建阶段联网，校验不符会拒绝。原脚本的目录关系必须保留：
+源码仓库不包含内嵌 Python 或 FFmpeg 可执行文件。源码中的 `开始转换.cmd` 供完整便携版使用。
 
-```powershell
-Set-Location '构建与验证/源码/work/build'
-python download_dependencies.py
-python build.py
-```
-
-输出在 `构建与验证/源码/work/package/DICOM转MP4工具包`。原 `build.py` 装配运行库、入口和转换程序，不会自动复刻最终发行包的全部说明、许可和源码归档。重新分发时还须复制根目录说明、`LICENSE.txt`、`第三方许可` 和构建源码，并生成新的文件清单，不能把该中间目录直接称为完整 Release。
-
-`test_portable.py` 使用合成影像、部分第三方测试像素，运行后才可接着执行 `test_display.py`；依赖和顺序见原重建说明。本次保留其原代码，没有宣称重新验证原报告中的转换结果。
+[转换程序](DICOM%20to%20MP4/程序/convert.py) · [构建与测试源码](DICOM%20to%20MP4/构建与验证/源码/work/build/) · [原许可证](DICOM%20to%20MP4/LICENSE.txt)
