@@ -8,11 +8,13 @@
 
 ## 下载
 
-请前往 **[版本发布与完整工具包下载](https://github.com/yuanxin586878-lang/DICOM-MP4-/releases)**，下载附件中的 `DICOM-MP4-v1.0-Windows-x64.zip`。
+**[点击下载 Windows x64 完整便携版](https://github.com/yuanxin586878-lang/DICOM-MP4-/releases/download/V1.0/DICOM-MP4-v1.0-Windows-x64.zip)**（约 128 MB）
 
-如果发布页尚无附件，说明完整工具包还未发布。绿色 `Code → Download ZIP` 以及自动生成的 `Source code (zip)` 只包含源码，不能直接双击运行。
+完整解压后，双击“开始转换.cmd”使用，无需安装 Python 或 FFmpeg。
 
-适用系统：Windows 10/11，64 位 x64。原包验证环境为 Windows 11；未在独立 Windows 10 设备上实测。
+[查看版本说明](https://github.com/yuanxin586878-lang/DICOM-MP4-/releases/tag/V1.0)
+
+请下载上面的完整便携版。绿色 `Code → Download ZIP` 和发布页自动提供的 `Source code` 是源码下载，不是完整便携工具包。
 
 ## 使用方法
 
