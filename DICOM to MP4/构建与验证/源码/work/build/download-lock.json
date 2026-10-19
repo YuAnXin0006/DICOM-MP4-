@@ -1,0 +1,62 @@
+{
+  "FFmpeg-source-946fcce07b.zip": {
+    "url": "https://codeload.github.com/FFmpeg/FFmpeg/zip/946fcce07b",
+    "sha256": "11e6adb3ae54f116867a292b3402e36b80be8810c32ca47cd2942a6be840dfcd",
+    "bytes": 23095830
+  },
+  "ffmpeg-release-essentials.zip": {
+    "url": "https://www.gyan.dev/ffmpeg/builds/packages/ffmpeg-9.0.2-essentials_build.zip",
+    "sha256": "60f467265b1e312373dbcd92200c2618a74850f98d3d078e94296bb3fa2047ba",
+    "bytes": 114768076
+  },
+  "pydicom-3.0.1-py3-none-any.whl": {
+    "url": "https://files.pythonhosted.org/packages/27/a6/98651e752a49f341aa99aa3f6c8ba361728dfc064242884355419df63669/pydicom-3.0.1-py3-none-any.whl",
+    "sha256": "db32f78b2641bd7972096b8289111ddab01fb221610de8d7afa835eb938adb41",
+    "bytes": 2376126
+  },
+  "numpy-2.2.6-cp312-cp312-win_amd64.whl": {
+    "url": "https://files.pythonhosted.org/packages/36/fa/8c9210162ca1b88529ab76b41ba02d433fd54fecaf6feb70ef9f124683f1/numpy-2.2.6-cp312-cp312-win_amd64.whl",
+    "sha256": "c1f9540be57940698ed329904db803cf7a402f3fc200bfe599334c9bd84a40b2",
+    "bytes": 12614190
+  },
+  "pillow-11.3.0-cp312-cp312-win_amd64.whl": {
+    "url": "https://files.pythonhosted.org/packages/8c/ce/e7dfc873bdd9828f3b6e5c2bbb74e47a98ec23cc5c74fc4e54462f0d9204/pillow-11.3.0-cp312-cp312-win_amd64.whl",
+    "sha256": "a6444696fce635783440b7f7a9fc24b3ad10a9ea3f0ab66c5905be1c19ccf17d",
+    "bytes": 6986324
+  },
+  "pyjpegls-1.5.1-cp312-cp312-win_amd64.whl": {
+    "url": "https://files.pythonhosted.org/packages/50/32/b011c2c33850c8d6f7815cf30257e0e00d9fcb70e0a8052448257636bf19/pyjpegls-1.5.1-cp312-cp312-win_amd64.whl",
+    "sha256": "14d7cf5e61ffdb9343a888dde5e3f9b7e527cc805c31c7f48a1e2cdb73d9d9fa",
+    "bytes": 1143350
+  },
+  "pylibjpeg_libjpeg-2.3.0-cp312-cp312-win_amd64.whl": {
+    "url": "https://files.pythonhosted.org/packages/68/86/415cc7676219f581f54ca7340d77fa0dd4f0157057f59ead33a9d916c2b3/pylibjpeg_libjpeg-2.3.0-cp312-cp312-win_amd64.whl",
+    "sha256": "05d04602b81fa9eb8c33147cf54224725141358f8bf66fd2677bbef5c0e19a48",
+    "bytes": 743955
+  },
+  "pylibjpeg_libjpeg-2.3.0.tar.gz": {
+    "url": "https://files.pythonhosted.org/packages/6a/39/d44c4124d8e97a3d5b5e87da5d5f096e010eb83670351bc0e9c77c0febd5/pylibjpeg_libjpeg-2.3.0.tar.gz",
+    "sha256": "ffb736acee1dfd446f387d45dfec83a144c7971e5cde290d9aafefa5dee99dd0",
+    "bytes": 671494
+  },
+  "pylibjpeg-2.1.0-py3-none-any.whl": {
+    "url": "https://files.pythonhosted.org/packages/3c/31/86c111e81c113e74ac1b0afde27755088b2db394579370c893d252d9615a/pylibjpeg-2.1.0-py3-none-any.whl",
+    "sha256": "25df9496a69e64e98c887fddee12a1271e275b5f74ba804f9bf98a08bb80993e",
+    "bytes": 25472
+  },
+  "python-3.12.10-embed-amd64.zip": {
+    "url": "https://www.python.org/ftp/python/3.12.10/python-3.12.10-embed-amd64.zip",
+    "sha256": "4acbed6dd1c744b0376e3b1cf57ce906f9dc9e95e68824584c8099a63025a3c3",
+    "bytes": 11133606
+  },
+  "pylibjpeg_openjpeg-2.5.0-cp312-cp312-win_amd64.whl": {
+    "url": "https://files.pythonhosted.org/packages/7d/d9/ad0a7d5721382e96e5f37755d7a5b4f932f2f58a272560036f96379e019a/pylibjpeg_openjpeg-2.5.0-cp312-cp312-win_amd64.whl",
+    "sha256": "f1af4f0f2621381bb60f063a49004e56b859e428b94ec3a1aabcc2cf1d082dbe",
+    "bytes": 350584
+  },
+  "pylibjpeg_rle-2.2.0-cp312-cp312-win_amd64.whl": {
+    "url": "https://files.pythonhosted.org/packages/1c/fe/dcdcf54846b7d5c4fd8f5471e686c9e36cc729023eafb4addc8ffe4a68c8/pylibjpeg_rle-2.2.0-cp312-cp312-win_amd64.whl",
+    "sha256": "f6002b44b14ebfa2df6bde6598bef95d31a76a839f511df5a52027e5785bcc5e",
+    "bytes": 140675
+  }
+}

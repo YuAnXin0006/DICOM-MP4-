@@ -1,0 +1,20 @@
+﻿便携工具直接双击运行，无须阅读此文件。以下仅供开发者重建。
+本工具自编源代码按GPL-3.0-or-later提供，各第三方保留各自许可。
+
+完整的构建和验证源文件位于“源码/work/build”。
+需要开发用Windows x64 Python3.12及联网下载条件（只有构建阶段需要联网）。
+在该目录依次运行：
+  python download_dependencies.py
+  python build.py
+然后使用重建出的包内Python运行：
+  ..\package\DICOM转MP4工具包\程序\python\python.exe -I -B -X utf8 test_portable.py
+  ..\package\DICOM转MP4工具包\程序\python\python.exe -I -B -X utf8 test_display.py
+
+下载器逐项核对锁定SHA256；上游文件若变化会拒绝，不能静默升级。
+编译器不需要：嵌入Python、wheel及FFmpeg已是上游发行二进制。
+build.py的输出在“源码/work/package/DICOM转MP4工具包”。
+最终工具只使用其内部相对路径，源代码中的构建目录不是目标机运行依赖。
+测试会新建含中文/空格的迁移目录，生成合成影像，再通过真实CMD入口转换。
+JPEG Extended和JPEG Lossless SV1的压缩像素取自MIT许可pydicom wheel的测试文件，
+只复制必要像素属性进入合成头，不复制患者/检查身份字段。
+转换入口绝不调用下载器、测试器或互联网。

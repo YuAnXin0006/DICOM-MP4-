@@ -1,0 +1,154 @@
+{
+  ".gitignore": {
+    "bytes": 870,
+    "sha256": "cb93d606b08916bab7806950132d21cb7fe015f2b2571406b67d588b345c7f9e"
+  },
+  "LICENSE.txt": {
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  "README.md": {
+    "bytes": 5907,
+    "sha256": "0d23b111dae366e7ab2e0074a2a9c2c33c32823e1f5087bcd08e507baa0a097c"
+  },
+  "README.txt": {
+    "bytes": 6289,
+    "sha256": "0f20668207e03f4ffe3079d5b768468ba11cc1f1a802e24e2c058cba12657bed"
+  },
+  "requirements.txt": {
+    "bytes": 197,
+    "sha256": "6e23c1daf74bab49a12cf6db716cabac9d9fd2a70e6afe059fda5bb681462373"
+  },
+  "原始文件/.gitkeep": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "发布前检查报告.md": {
+    "bytes": 3854,
+    "sha256": "d12341d102ebf7c164cb6dd32375355ecb0994dd9c0c4c54e145d60991d8a53f"
+  },
+  "开始转换.cmd": {
+    "bytes": 408,
+    "sha256": "cb2b2cce281186d683c6f6f0e6b056c7e41aa5a3372b458e2f6d41cb53586f65"
+  },
+  "支持范围与验证报告.txt": {
+    "bytes": 7736,
+    "sha256": "837c497d331ea1858972dbdb5d5f29ff0c9d46e1a93aef5e77482b17fbf666a5"
+  },
+  "构建与验证/下载文件校验.json": {
+    "bytes": 1583,
+    "sha256": "609de9caacff72044b41fff644ad9a96ac22606a506f2937a283aec24793a2f5"
+  },
+  "构建与验证/源码/work/build/build.py": {
+    "bytes": 2697,
+    "sha256": "a1513590903f7fb27863126ba8e4dc1c8fc734a360ba893cfcd46ac2bff11101"
+  },
+  "构建与验证/源码/work/build/convert.py": {
+    "bytes": 21191,
+    "sha256": "e84e8788c18da5934f6fc244f6de763e1786a537436a17c7c0ff95ae4708740b"
+  },
+  "构建与验证/源码/work/build/download-lock.json": {
+    "bytes": 3593,
+    "sha256": "30a8123c1a2a79c99ba679d288056c3a6fdd62d0b7388222df0d34aa6962f976"
+  },
+  "构建与验证/源码/work/build/download_dependencies.py": {
+    "bytes": 1029,
+    "sha256": "83dad13b12b5d1f24a086ededa2b0aa05105700cc6ed5d12c9956dac7e0f0a27"
+  },
+  "构建与验证/源码/work/build/test_display.py": {
+    "bytes": 3356,
+    "sha256": "adbab44a4829e4e3c89b27adad77616150fce72de8e4f23ae7917d623472783e"
+  },
+  "构建与验证/源码/work/build/test_portable.py": {
+    "bytes": 11494,
+    "sha256": "39bb973b2a43dfd4f691834c55478cae9d4162d85864250ed6888b5162c1c941"
+  },
+  "构建与验证/重建说明.txt": {
+    "bytes": 1376,
+    "sha256": "495758c3ad740e37269a6a60d0e3eb4f33d05e0e578d06ae9966ec05b6391540"
+  },
+  "程序/convert.py": {
+    "bytes": 21191,
+    "sha256": "e84e8788c18da5934f6fc244f6de763e1786a537436a17c7c0ff95ae4708740b"
+  },
+  "程序/ffmpeg/.gitkeep": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "第三方许可/FFmpeg-LICENSE": {
+    "bytes": 35147,
+    "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903"
+  },
+  "第三方许可/FFmpeg-README.txt": {
+    "bytes": 41577,
+    "sha256": "0342de6bb39dd421cbec2c00d89ad274b640d75ad3f2cab09ffd647ce2d8f949"
+  },
+  "第三方许可/numpy-2.2.6-cp312-cp312-win_amd64.whl/numpy-2.2.6.dist-info__LICENSE.txt": {
+    "bytes": 47709,
+    "sha256": "14256cc3a2c9d32ac284da96b937feb44f72dd90bee2317ac3020166846ad99d"
+  },
+  "第三方许可/numpy-2.2.6-cp312-cp312-win_amd64.whl/numpy___core__include__numpy__random__LICENSE.txt": {
+    "bytes": 1039,
+    "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+  },
+  "第三方许可/numpy-2.2.6-cp312-cp312-win_amd64.whl/numpy__ma__LICENSE": {
+    "bytes": 1616,
+    "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+  },
+  "第三方许可/numpy-2.2.6-cp312-cp312-win_amd64.whl/numpy__random__LICENSE.md": {
+    "bytes": 3582,
+    "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+  },
+  "第三方许可/pillow-11.3.0-cp312-cp312-win_amd64.whl/pillow-11.3.0.dist-info__licenses__LICENSE": {
+    "bytes": 76724,
+    "sha256": "19544bf53af689a3319a4fb5067370f0f0d68d2c5300a2157674f5ef8a4fd965"
+  },
+  "第三方许可/pydicom-3.0.1-py3-none-any.whl/pydicom-3.0.1.dist-info__LICENSE": {
+    "bytes": 3141,
+    "sha256": "39b3259cb15151df25167119087df1fef33624765e639af42447ba6fe86dada3"
+  },
+  "第三方许可/pyjpegls-1.5.1-cp312-cp312-win_amd64.whl/pyjpegls-1.5.1.dist-info__license.txt": {
+    "bytes": 1194,
+    "sha256": "31d11ddd5cfd55534951f4cfb3540ae9596f29b60cacc8d879d601109d92d5ef"
+  },
+  "第三方许可/pylibjpeg-2.1.0-py3-none-any.whl/pylibjpeg-2.1.0.dist-info__licenses__LICENCE.txt": {
+    "bytes": 1101,
+    "sha256": "92bbc6b080fa402569bc55e54900bb7ccb8f5560d92b81a9f96459078495fb65"
+  },
+  "第三方许可/pylibjpeg_libjpeg-2.3.0-cp312-cp312-win_amd64.whl/pylibjpeg_libjpeg-2.3.0.dist-info__LICENSE": {
+    "bytes": 33223,
+    "sha256": "1177c474e688637123342f241cbe43237c42537bf8fa7430394bd5a45ecc3698"
+  },
+  "第三方许可/pylibjpeg_openjpeg-2.5.0-cp312-cp312-win_amd64.whl/pylibjpeg_openjpeg-2.5.0.dist-info__LICENSE": {
+    "bytes": 3216,
+    "sha256": "0762ec176496181bbb6e2375612f40bc5721143f8a4a0b85b9abb02fbb280e3a"
+  },
+  "第三方许可/pylibjpeg_rle-2.2.0-cp312-cp312-win_amd64.whl/pylibjpeg_rle-2.2.0.dist-info__licenses__LICENSE": {
+    "bytes": 1095,
+    "sha256": "7fe2b9811a3a4e10fa919ddfe2e8327dc9fe26de3f03e1098e352112e9710771"
+  },
+  "第三方许可/Python-LICENSE.txt": {
+    "bytes": 36874,
+    "sha256": "e502c6b880ff58d614901495a9009c136539cd0b1e2a2abb8fc00b934c203419"
+  },
+  "第三方许可/源代码归档/FFmpeg-source-946fcce07b.zip": {
+    "bytes": 23095830,
+    "sha256": "11e6adb3ae54f116867a292b3402e36b80be8810c32ca47cd2942a6be840dfcd"
+  },
+  "第三方许可/源代码归档/pylibjpeg_libjpeg-2.3.0.tar.gz": {
+    "bytes": 671494,
+    "sha256": "ffb736acee1dfd446f387d45dfec83a144c7971e5cde290d9aafefa5dee99dd0"
+  },
+  "第三方许可/组件与来源.txt": {
+    "bytes": 2004,
+    "sha256": "f1e6810492a02f1e0f9876559dd3ada0e65ddc15396e1305a202681cb1687c51"
+  },
+  "视频输出/.gitkeep": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "转换记录/.gitkeep": {
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}
